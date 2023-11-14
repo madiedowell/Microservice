@@ -6,7 +6,7 @@ A. Clear instructions for how to programmatically REQUEST data from the microser
   - To request data from the microservice, you will need to write a simple get command to the DigiMetInput.txt file.
     
   - Here is an example call:
-    with open("DigiMetInput.txt", "w", encoding = "utf-8") as f:\n
+    with open("DigiMetInput.txt", "w", encoding = "utf-8") as f:
       f.write("get")
       f.close
     
